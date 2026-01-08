@@ -1,0 +1,178 @@
+$black: #0b0b0b;
+$light: #e6e6e6;
+$text: #111;
+.site-footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.hero {
+  background: $light;
+  position: relative;
+  overflow: hidden; // important for diagonal shape
+
+  // The inclined black area on the right
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: $black;
+
+    // Diagonal edge
+    clip-path: polygon(55% 0, 100% 0, 100% 100%, 45% 100%);
+    z-index: 0;
+  }
+
+  &__inner {
+    position: relative;
+    z-index: 1; // above the pseudo background
+    min-height: 70vh;
+    display: grid;
+    grid-template-columns: 1.1fr 0.9fr;
+    align-items: center;
+    gap: 2rem;
+
+    width: min(1100px, 92%);
+    margin: 0 auto;
+    // padding: 2.5rem 0;
+  }
+
+  &__content {
+    color: $text;
+    max-width: 520px;
+  }
+
+  &__kicker {
+    font-weight: 600;
+    margin: 0 0 0.75rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: clamp(2rem, 4vw, 3rem);
+    font-weight: 800;
+  }
+
+  &__subtitle {
+    margin: 0.5rem 0 1.25rem;
+    opacity: 0.75;
+    padding-right: 10px;
+  }
+
+  &__social {
+    list-style: none;
+    display: flex;
+    gap: 0.75rem;
+    padding: 0;
+    margin: 0;
+
+    a {
+      display: inline-flex;
+      width: 38px;
+      height: 38px;
+      border-radius: 8px;
+      align-items: center;
+      justify-content: center;
+
+      background: #d9d9d9;
+      color: $text;
+      text-decoration: none;
+      font-weight: 700;
+
+      &:hover {
+        filter: brightness(0.95);
+      }
+    }
+  }
+
+  &__visual {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+
+  &__photo {
+    max-width: 360px;
+    width: 100%;
+    height: auto;
+    // photo sits on black area visually
+  }
+}
+
+.site-header {
+  background: $light;
+
+  .nav {
+    width: min(1100px, 92%);
+    margin: 0 auto;
+    padding: 1rem 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1.5rem;
+
+    &__links {
+      list-style: none;
+      display: flex;
+      gap: 1.25rem;
+      padding: 0;
+      margin: 0;
+
+      a {
+        text-decoration: none;
+        color: #fff; // appears over black on the right in the screenshot style
+        font-size: 0.95rem;
+        opacity: 0.9;
+
+        &:hover { opacity: 1; }
+      }
+    }
+
+    &__cta {
+      text-decoration: none;
+      background: #fff;
+      color: $black;
+      padding: 0.55rem 0.9rem;
+      border-radius: 999px;
+      font-weight: 700;
+      font-size: 0.85rem;
+    }
+  }
+}
+
+// Bottom black bar section (like screenshot)
+.feature {
+  background: $black;
+  color: #f2f2f2;
+
+  &__inner {
+    width: min(1100px, 92%);
+    margin: 0 auto;
+    padding: 2rem 0;
+  }
+
+  &__title {
+    letter-spacing: 0.2em;
+    font-size: 0.95rem;
+    margin: 0 0 0.75rem;
+  }
+
+  &__text {
+    opacity: 0.85;
+    max-width: 900px;
+    line-height: 1.7;
+  }
+
+  &__link {
+    display: inline-block;
+    margin-top: 1rem;
+    color: #fff;
+    text-decoration: none;
+    border-bottom: 1px solid rgba(255,255,255,0.4);
+
+    &:hover {
+      border-bottom-color: #fff;
+    }
+  }
+}

@@ -1,5 +1,14 @@
+import Navbar from "../../layouts/Navbar/navbar.component";
+
 const Contact = () => {
-  return <h2>Contact Page</h2>;
+  return (
+        <>
+          <Navbar />
+        <main>
+          <h1>This is Contact Page</h1>
+        </main>
+    </>
+  );
 };
 
 export default Contact;

@@ -1,0 +1,42 @@
+  $black: #0b0b0b;
+  
+  
+  .navbar {
+    position: sticky;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background: $black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .Logo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 0.5em 1.0em;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: large;
+     color: #fff;
+
+  }
+    .Logo:hover {
+    background: #e4ae0b;
+    border-radius: 10px;
+  }
+
+  .btn {
+    padding: 0.5em 1.0em;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  .btn:hover {
+    background: #e4ae0b;
+    border-radius: 10px;
+  }
+
