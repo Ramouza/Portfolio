@@ -1,11 +1,13 @@
-$black: #0b0b0b;
+$black: #444b81;
 $light: #e6e6e6;
-$text: #111;
+$text: #444b81;
+
 .site-footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
+
 .hero {
   background: $light;
   position: relative;

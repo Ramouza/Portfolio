@@ -5,12 +5,13 @@ import personImg from "../../assets/profile.png"
 
 //imported components
 import Navbar from "../../layouts/Navbar/navbar.component";
+import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Home = () => {
   return (
     <>
       <Navbar />
-      <main className="Container">
+      <main className="container">
         <section className="hero" aria-labelledby="hero-title">
           <div className="hero__inner">
             <div className="hero__content">
@@ -24,20 +25,34 @@ const Home = () => {
 
               <ul className="hero__social" aria-label="Social links">
                 <li>
-                  <a href="#" aria-label="GitHub">
-                    GH
+                  <a
+                    href="https://github.com/ramouza"
+                    aria-label="GitHub"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaGithub />
                   </a>
                 </li>
                 <li>
-                  <a href="#" aria-label="LinkedIn">
-                    IN
+                  <a
+                    href="https://www.linkedin.com/in/ramez-samy-b399222a9/"
+                    aria-label="LinkedIn"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    <FaLinkedin />
                   </a>
                 </li>
               </ul>
             </div>
 
             <div className="hero__visual" aria-hidden="true">
-              <img className="hero__photo" src={personImg} alt="Ramez's Profile Picture" />
+              <img
+                className="hero__photo"
+                src={personImg}
+                alt="Ramez's Profile Picture"
+              />
             </div>
           </div>
         </section>
