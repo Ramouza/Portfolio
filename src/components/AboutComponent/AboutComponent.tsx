@@ -1,5 +1,3 @@
-import React from "react";
-import Navbar from "../../layouts/Navbar/navbar.component";
 //Pagewrapper for general screen transitions
 import PageWrapper from "../../layouts/PageWrapper/pagewrapper";
 //imports data from cv and styles

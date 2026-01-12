@@ -5,9 +5,7 @@ import personImg from "../../assets/profile.png"
 import PageWrapper from "../../layouts/PageWrapper/pagewrapper";
 
 //imported components
-import Navbar from "../../layouts/Navbar/navbar.component";
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
-import Footer from "../../layouts/Footer/footer.component";
 import { Link } from "react-router-dom";
 
 const Home = () => {
