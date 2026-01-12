@@ -1,4 +1,4 @@
-$black: #444b81;
+$mypurple: #444b81;
 $light: #e6e6e6;
 $text: #444b81;
 
@@ -11,23 +11,23 @@ $text: #444b81;
 .hero {
   background: $light;
   position: relative;
-  overflow: hidden; // important for diagonal shape
+  overflow: hidden; 
 
-  // The inclined black area on the right
+  
   &::after {
     content: "";
     position: absolute;
     inset: 0;
-    background: $black;
+    background: $mypurple;
 
-    // Diagonal edge
+    
     clip-path: polygon(55% 0, 100% 0, 100% 100%, 45% 100%);
     z-index: 0;
   }
 
   &__inner {
     position: relative;
-    z-index: 1; // above the pseudo background
+    z-index: 1; 
     min-height: 70vh;
     display: grid;
     grid-template-columns: 1.1fr 0.9fr;
@@ -36,7 +36,7 @@ $text: #444b81;
 
     width: min(1100px, 92%);
     margin: 0 auto;
-    // padding: 2.5rem 0;
+    
   }
 
   &__content {
@@ -97,7 +97,6 @@ $text: #444b81;
     max-width: 360px;
     width: 100%;
     height: auto;
-    // photo sits on black area visually
   }
 }
 
@@ -123,7 +122,7 @@ $text: #444b81;
 
       a {
         text-decoration: none;
-        color: #fff; // appears over black on the right in the screenshot style
+        color: #fff;
         font-size: 0.95rem;
         opacity: 0.9;
 
@@ -134,7 +133,7 @@ $text: #444b81;
     &__cta {
       text-decoration: none;
       background: #fff;
-      color: $black;
+      color: $mypurple;
       padding: 0.55rem 0.9rem;
       border-radius: 999px;
       font-weight: 700;
@@ -143,9 +142,8 @@ $text: #444b81;
   }
 }
 
-// Bottom black bar section (like screenshot)
 .feature {
-  background: $black;
+  background: $mypurple;
   color: #f2f2f2;
 
   &__inner {

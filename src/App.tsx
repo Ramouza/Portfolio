@@ -7,16 +7,20 @@ import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
 import Home from './components/HomeComponent/HomeComponent';
 import About from './components/AboutComponent/AboutComponent';
 import Contact from './components/ContactComponent/ContactComponent';
+//animation transactions between screens
+import { AnimatePresence } from 'framer-motion';
 
 function App() {
   return (
     <>
       <BrowserRouter>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
+        <AnimatePresence mode="wait">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </AnimatePresence>
       </BrowserRouter>
     </>
   );

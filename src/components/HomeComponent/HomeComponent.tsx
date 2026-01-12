@@ -1,15 +1,16 @@
 import React from "react";
 import './HomeComponent.styles.scss';
 import personImg from "../../assets/profile.png"
-
+//Pagewrapper for general transactions
+import PageWrapper from "../../layouts/PageWrapper/pagewrapper";
 
 //imported components
 import Navbar from "../../layouts/Navbar/navbar.component";
-import { FaInstagram, FaLinkedin, FaGithub } from 'react-icons/fa';
+import { FaLinkedin, FaGithub } from 'react-icons/fa';
 
 const Home = () => {
   return (
-    <>
+    <PageWrapper>
       <Navbar />
       <main className="container">
         <section className="hero" aria-labelledby="hero-title">
@@ -72,7 +73,7 @@ const Home = () => {
       <footer className="site-footer">
         <small>© 2026</small>
       </footer>
-    </>
+    </PageWrapper>
   );
 };
 
