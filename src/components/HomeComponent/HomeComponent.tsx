@@ -7,11 +7,13 @@ import PageWrapper from "../../layouts/PageWrapper/pagewrapper";
 //imported components
 import Navbar from "../../layouts/Navbar/navbar.component";
 import { FaLinkedin, FaGithub } from 'react-icons/fa';
+import Footer from "../../layouts/Footer/footer.component";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
     <PageWrapper>
-      <Navbar />
+      {/* <Navbar /> */}
       <main className="container">
         <section className="hero" aria-labelledby="hero-title">
           <div className="hero__inner">
@@ -63,16 +65,20 @@ const Home = () => {
             <h2 id="feature-title" className="feature__title">
               IT BERRIES
             </h2>
-            <p className="feature__text">...your paragraph here...</p>
-            <a className="feature__link" href="#more">
-              Read more
-            </a>
+            <p className="feature__text">
+              I build modern, responsive web and mobile interfaces using React
+              and React Native. My focus is on clean UI, scalable architecture,
+              and smooth user experiences, from idea to production-ready
+              solutions.
+            </p>
+            <Link to='/about'>
+              <a className="feature__link">
+                Read more
+              </a>
+            </Link>
           </div>
         </section>
       </main>
-      <footer className="site-footer">
-        <small>© 2026</small>
-      </footer>
     </PageWrapper>
   );
 };

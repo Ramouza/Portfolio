@@ -31,7 +31,7 @@ const About = () => {
 
   return (
     <PageWrapper>
-      <Navbar />
+      {/* <Navbar /> */}
       <main className="about">
         {/* Hero (same diagonal vibe as your homepage hero) */}
         <section className="about-hero">

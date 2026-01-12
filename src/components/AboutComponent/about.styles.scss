@@ -356,20 +356,18 @@ $text: #444b81;
   font-size: 0.85rem;
 }
 
-/* Responsive */
-@media (max-width: 900px) {
+@media (max-width: 700px) {
+  .about-hero::after {
+    clip-path: polygon(0 0, 100% 0, 100% 28%, 0 45%);
+  }
+
   .about-hero__inner {
     grid-template-columns: 1fr;
     min-height: unset;
   }
 
-  .about-grid,
-  .about-grid--two,
-  .about-grid--three {
-    grid-template-columns: 1fr;
-  }
-
-  .about-job__header {
-    flex-direction: column;
+  .about-hero__card {
+    width: 100%;
   }
 }
+
