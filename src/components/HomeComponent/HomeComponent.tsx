@@ -52,7 +52,7 @@ const Home = () => {
               <img
                 className="hero__photo"
                 src={personImg}
-                alt="Ramez's Profile Picture"
+                alt="Ramez's Profile"
               />
             </div>
           </div>
@@ -70,9 +70,9 @@ const Home = () => {
               solutions.
             </p>
             <Link to='/about'>
-              <a className="feature__link">
+              <span className="feature__link">
                 Read more
-              </a>
+              </span>
             </Link>
           </div>
         </section>

@@ -3,12 +3,12 @@ import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
 import "./footer.styles.scss";
 import cv from "../../data/cv.json";
 
-type FooterProps = {
-  brand?: string;
-  email?: string;
-  linkedinUrl?: string;
-  githubUrl?: string;
-};
+// type FooterProps = {
+//   brand?: string;
+//   email?: string;
+//   linkedinUrl?: string;
+//   githubUrl?: string;
+// };
 
 export default function Footer() {
   const { fullName, links, contact } = cv.profile;

@@ -1,5 +1,4 @@
 import './contact.styles.scss';
-import Navbar from "../../layouts/Navbar/navbar.component";
 //react hooks
 import React from "react";
 import { useState } from "react";

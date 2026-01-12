@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import React, { PropsWithChildren } from "react";
 
-interface PageWrapperProps {
-  children: React.ReactNode;
-}
+// interface PageWrapperProps {
+//   children: React.ReactNode;
+// }
 
 const PageWrapper = ({children} : PropsWithChildren) => {
     return (
