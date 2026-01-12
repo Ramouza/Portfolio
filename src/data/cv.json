@@ -1,0 +1,161 @@
+{
+  "profile": {
+    "fullName": "Ramez Samy Sabet",
+    "title": "Front-End Developer (React / React Native)",
+    "summary": "Aspiring Software Developer experienced in building digital solutions using both traditional and low-code technologies. Currently working at Innovo Group as a Software Engineer focused on workflow automation using the Microsoft Power Platform. Previously worked on React Native frontend development, building reusable components, API-driven features, and managing application state with Redux. Passionate about automation, scalable systems, and user-focused design, with the goal of becoming a full-time React Engineer.",
+    "location": {
+      "city": "Helwan",
+      "country": "Egypt",
+      "address": "18 Zo-Al Fakar St., Helwan, Cairo, Egypt 11735"
+    },
+    "contact": {
+      "phone": "+201228747380",
+      "email": "ramezsamysabet@gmail.com"
+    },
+    "links": {
+      "linkedin": "https://www.linkedin.com/in/ramez-samy-b399222a9/",
+      "github": "https://www.github.com/ramouza"
+    }
+  },
+
+  "skills": {
+    "technical": [
+      "JavaScript",
+      "TypeScript",
+      "JSX",
+      "TSX",
+      "React.js",
+      "React Native",
+      "Redux Toolkit",
+      "Sass",
+      "CSS",
+      "HTML",
+      "RESTful APIs",
+      "Postman",
+      "PHP",
+      "MySQL",
+      "MongoDB",
+      "Node.js",
+      "Express.js"
+    ],
+    "soft": [
+      "Problem Solving",
+      "Teamwork",
+      "Negotiation",
+      "Leadership",
+      "Creativity"
+    ],
+    "tools": [
+      "Microsoft Office (Word, Excel, PowerPoint, Outlook)",
+      "Canva",
+      "Microsoft Power Platform",
+      "Power Apps",
+      "Power Automate"
+    ]
+  },
+
+  "experience": [
+    {
+      "company": "Innovo Group",
+      "role": "Software Engineer – Workflow Automation",
+      "startDate": "2025-07",
+      "endDate": "Present",
+      "description": [
+        "Develop internal applications and automated workflows using Microsoft Power Apps and Power Automate.",
+        "Configure and maintain app logic, data connections, and automated flows aligned with business needs.",
+        "Collaborate with teams to analyze workflows and translate requirements into scalable solutions.",
+        "Provide user support and training to ensure smooth adoption of automation tools.",
+        "Troubleshoot flow errors, optimize performance, and apply best practices for reliability and security.",
+        "Work with IT to manage permissions and integrate Power Platform solutions with internal systems."
+      ]
+    },
+    {
+      "company": "Wadi Degla Holding",
+      "role": "React Native Front-End Intern",
+      "startDate": "2025-07",
+      "endDate": "2025-09",
+      "description": [
+        "Developed cross-platform mobile applications using React Native with TypeScript.",
+        "Integrated RESTful APIs for dynamic content rendering.",
+        "Used Redux Toolkit for efficient global state management.",
+        "Built reusable UI components and responsive layouts.",
+        "Collaborated with senior developers to debug and enhance live applications."
+      ]
+    },
+    {
+      "company": "Concentrix",
+      "role": "Customer Service Agent (English)",
+      "startDate": "2022-09",
+      "endDate": "2023-11",
+      "description": [
+        "Handled inbound and outbound calls for Amazon accounts.",
+        "Resolved customer issues related to orders and deliveries.",
+        "Maintained high customer satisfaction in a fast-paced environment.",
+        "Demonstrated strong communication and problem-solving skills."
+      ]
+    }
+  ],
+
+  "education": [
+    {
+      "degree": "Bachelor of Computer Science",
+      "institution": "Modern Academy for Science and Technology",
+      "startYear": "2022",
+      "endYear": "2026"
+    },
+    {
+      "degree": "High School",
+      "institution": "Collège de la Sainte Famille",
+      "startYear": "2019",
+      "endYear": "2022"
+    }
+  ],
+
+  "certifications": [
+    {
+      "title": "Web Development Challenger Track",
+      "provider": "FWD (Udacity & ITIDA)",
+      "date": "2022-10"
+    },
+    {
+      "title": "Web Development Professional Track",
+      "provider": "FWD (Udacity & ITIDA)",
+      "date": "2023-02"
+    },
+    {
+      "title": "Introduction to Front-End Development",
+      "provider": "Meta Front-End Professional Certificate",
+      "date": "2023-11"
+    },
+    {
+      "title": "HTML and CSS in Depth",
+      "provider": "Meta Front-End Professional Certificate",
+      "date": "2023-12"
+    },
+    {
+      "title": "MERN Stack Training",
+      "provider": "DEV Academy",
+      "date": "2024-08"
+    },
+    {
+      "title": "Back-End PHP Training",
+      "provider": "IT Shark’s",
+      "date": "2023-08"
+    }
+  ],
+
+  "languages": [
+    {
+      "language": "Arabic",
+      "level": "Native"
+    },
+    {
+      "language": "English",
+      "level": "Fluent (C1 – EF SET Certified)"
+    },
+    {
+      "language": "German",
+      "level": "Intermediate (B1 – Goethe Institute Certified)"
+    }
+  ]
+}
